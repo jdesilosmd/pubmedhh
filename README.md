@@ -9,7 +9,7 @@ PubMed for Handhelds (PubMed4Hh) brings PubMed/MEDLINE to the point of care thro
 
 Pubmedhh requires Apache, MySQL and PHP.
 
-Customize for your site in conf.php.
+Customize for your site in include/conf.php, include/dbconnect.php and cgi-bin/search.cgi.
 
 ## License
 
