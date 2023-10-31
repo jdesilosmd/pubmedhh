@@ -7,7 +7,9 @@ PubMed for Handhelds (PubMed4Hh) brings PubMed/MEDLINE to the point of care thro
 
 ## Installation
 
-Pubmedhh requires Apache, MySQL and PHP.
+Pubmedhh requires Apache, MySQL, PHP and Perl. It also requires an NLM/NCBI API key. Learn how to get one here:
+
+  https://ncbiinsights.ncbi.nlm.nih.gov/2017/11/02/new-api-keys-for-the-e-utilities/
 
 Customize for your site in areas indicated in files include/conf.php, include/dbconnect.php and cgi-bin/search.cgi.
 
