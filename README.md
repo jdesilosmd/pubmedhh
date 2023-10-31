@@ -9,7 +9,9 @@ PubMed for Handhelds (PubMed4Hh) brings PubMed/MEDLINE to the point of care thro
 
 Pubmedhh requires Apache, MySQL and PHP.
 
-Customize for your site in include/conf.php, include/dbconnect.php and cgi-bin/search.cgi.
+Customize for your site in areas indicated in files include/conf.php, include/dbconnect.php and cgi-bin/search.cgi.
+
+To use askMEDLINE, first initialize the database by running the command "mysql -u ADMIN -p < ask1.sql". 
 
 ## License
 
@@ -17,7 +19,7 @@ Terms and Conditions for Use of Pubmedhh
 
 Informational Notice:
 
-This software, “Biomarkers,” was developed under contract funded by the National Library of Medicine, which is part of the National Institutes of Health, an agency of the Department of Health and Human Services, United States Government.
+This software, “PubMed for Handhelds (PubMed4Hh),” was developed under contract funded by the National Library of Medicine, which is part of the National Institutes of Health, an agency of the Department of Health and Human Services, United States Government.
 
 The license of this software is an open-source BSD-like license. It allows use in both commercial and non-commercial products.
 
