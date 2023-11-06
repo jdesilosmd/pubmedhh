@@ -11,9 +11,9 @@ Pubmedhh requires Apache, MySQL, PHP and Perl. It also requires an NLM/NCBI API 
 
   https://ncbiinsights.ncbi.nlm.nih.gov/2017/11/02/new-api-keys-for-the-e-utilities/
 
-Customize for your site in areas indicated in files include/conf.php, include/dbconnect.php and cgi-bin/search.cgi.
+Customize the source code for your site in files include/conf.php, include/dbconnect.php and cgi-bin/search.cgi.
 
-To use askMEDLINE, first initialize the database by running the command "mysql -u ADMIN -p < ask1.sql". 
+To use askMEDLINE, first initialize the database by loading the database dump file: mysql -u ADMIN -p < ask1.sql
 
 ## License
 
